@@ -5,7 +5,7 @@ const GLogin = GoogleLogin as unknown as React.FC<any>;
 
 const LoginPage = () => {
   return (
-    <Provider clientId="YOUR_KEY">
+    <Provider clientId="133105456056-nqojmq808oq0tneb24dqptsqqr448clc.apps.googleusercontent.com">
       <div>
         <GLogin
           onSuccess={(res: any) => console.log(res)}
